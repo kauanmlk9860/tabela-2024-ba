@@ -1,0 +1,60 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão da página */
+    display: flex; /* Usa flexbox para alinhar o conteúdo centralmente */
+    justify-content: center; /* Alinha horizontalmente o conteúdo no centro */
+    align-items: center; /* Alinha verticalmente o conteúdo no centro */
+    height: 100vh; /* Define a altura do body como 100% da altura */
+    margin: 0; /* Remove a margem padrão do body */
+    background-color: #ADD8E6; /* Define a cor de fundo da página como azul claro  */
+}
+
+table {
+    width: 80%; /* Define a largura da tabela como 80% do contêiner pai */
+    border-collapse: collapse; /* Remove o espaçamento entre as bordas das células */
+    background-color: White; /* Define a cor de fundo da tabela como branca */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Define uma borda sólida e fina de cor cinza claro para as colunas */
+    padding: 8px; /* Adiciona preenchimento interno de 8 pixels às colunas */
+    text-align: left; /* Alinha o texto à esquerda dentro das colunas  */
+}
+
+/* Estilos específicos para os cabeçalhos da tabela */
+th {
+    background-color: White; /* Define a cor de fundo dos cabeçalhos como branca */
+}
+
+
+tr:nth-child(even) {
+    background-color: White; /* Define a cor de fundo das linhas pares como branca */
+}
+
+
+tr:hover {
+    background-color: White; /* Define a cor de fundo das linhas ao passar o mouse como branca */
+}
+
+
+img {
+    display: block; /* Remove o espaço abaixo das imagens */
+    margin: 0 auto; /* Centraliza as imagens horizontalmente */
+}
+
+td img {
+    width: 100px; /* Define o tamanho das imagens dentro das colunas como 50 pixels */
+    height: auto; /* Mantém a proporção da altura das imagens */
+}
+
+
+a {
+    color: Blue; /* Define a cor dos links como azul */
+   
+}
+
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado aos links ao passar o mouse */
+}
+

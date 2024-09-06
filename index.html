@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<h1>
+    <style> 
+
+        body {
+            font-family: Arial, sans-serif; /* Define a fonte padrão da página */
+            display: flex; /* Usado para centralizar o conteúdo horizontal e verticalmente */
+            justify-content: center; /* Alinha a tabela horizontalmente no centro */
+            align-items: center; /* Alinha a tabela verticalmente no centro */
+            height: 100vh; /* Define a altura do body como 100% da altura  */
+            margin: 0; /* Remove a margem padrão do body */
+            background-color: #E4EBF2; /* Define a cor de fundo da página como azul claro */
+        }
+
+        
+        table {
+            width: 90%; /* Define a largura da tabela como 90% do contêiner pai */
+            border-collapse: collapse; /* Remove espaçamentos entre as bordas das células */
+            background-color: #fff; /* Define a cor de fundo da tabela como branco */
+            margin: 20px 0; /* Adiciona margem superior e inferior à tabela */
+        }
+
+        
+        th, td {
+            border: 3px double #333; /* Define uma borda dupla para as células da tabela */
+            padding: 12px; /* Adiciona preenchimento interno às células */
+            text-align: left; /* Alinha o texto à esquerda dentro das células */
+        }
+
+        /* Estilos para os cabeçalhos da tabela */
+        th {
+            background-color: #73C0F4; /* Define a cor de fundo dos cabeçalhos como azul claro */
+        }
+
+        /* Estilos para as linhas pares da tabela */
+        tr:nth-child(even) {
+            background-color: #f9f9f9; /* Define a cor de fundo das linhas pares como cinza claro */
+        }
+
+        /* Estilos para as linhas da tabela ao passar o mouse */
+        tr:hover {
+            background-color: #e6f7ff; /* Define a cor de fundo das linhas ao passar o mouse como azul claro */
+        }
+
+        /* Estilos para as imagens dentro da tabela */
+        img {
+            display: block; /* Remove o espaço abaixo das imagens */
+            margin: 0 auto; /* Centraliza as imagens horizontalmente */
+            max-width: 100px; /* Limita a largura máxima das imagens */
+            height: auto; /* Mantém a proporção da altura padrão a todas as imagens  */
+        }
+
+        
+        a {
+            color: #1a0dab; /* Define a cor dos links como azul escuro */
+            text-decoration: underline; /* Adiciona sublinhado aos links */
+        }
+
+        
+        a:hover {
+            text-decoration: underline; /* Mantém o sublinhado ao passar o mouse sobre o link */
+        }
+    </style>
+</head>
+<body>
+    <!-- Tabela com informações sobre empresas -->
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th> <!-- Cabeçalho da coluna 'Nome' -->
+                <th>Logo</th> <!-- Cabeçalho da coluna 'Logo' -->
+                <th>Descrição</th> <!-- Cabeçalho da coluna 'Descrição' -->
+                <th>Link</th> <!-- Cabeçalho da coluna 'Link' -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Apple</td> <!-- Nome da empresa -->
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Logo 1"></td> <!-- Logo da Apple -->
+                <td>A Apple é uma empresa global conhecida por seus produtos eletrônicos, como Mac, iPhone, iPad, Apple TV e Apple Watch. Seus principais produtos e serviços incluem iPhone, iPad, Mac, Apple Watch, iOS, macOS, iCloud e Apple Store. Fundada em 1976, é uma das maiores e mais valiosas empresas do mundo.</td> <!-- Descrição da Apple -->
+                <td><a href="https://www.apple.com/br/store?afid=p238%7CsQPZGut7P-dc_mtid_1870765e38482_pcrid_703404953401_pgrid_167133565110_pntwk_g_pchan__pexid__ptid_kwd-49065841_&cid=aos-br-kwgo---slid---product-" target="_blank">Apple.com</a></td> <!-- Link para o site da Apple -->
+            </tr>
+            <tr>
+                <td>Microsoft</td> <!-- Nome da empresa -->
+                <td><img src="https://www.logotipo.pt/wp-content/uploads/2012/09/microsoft-logo-20121.jpg" alt="Logo 2"></td> <!-- Logo da Microsoft -->
+                <td>Microsoft Corporation (NASDAQ: MSFT) é uma empresa transnacional dos Estados Unidos com sede em Redmond, Washington, que desenvolve, fabrica, licencia, apoia e vende softwares de computador, produtos eletrônicos, computadores e serviços pessoais.</td> <!-- Descrição da Microsoft -->
+                <td><a href="https://www.microsoft.com/pt-br" target="_blank">Microsoft.com</a></td> <!-- Link para o site da Microsoft -->
+            </tr>
+            <tr>
+                <td>Amazon</td> <!-- Nome da empresa -->
+                <td><img src="https://logosmarcas.net/wp-content/uploads/2020/04/Amazon-Logo.png" alt="Logo 3"></td> <!-- Logo da Amazon -->
+                <td>Amazon é uma empresa multinacional de tecnologia norte-americana com sede em Seattle, Washington. A companhia se concentra no e-commerce, computação em nuvem, streaming e inteligência artificial.</td> <!-- Descrição da Amazon -->
+                <td><a href="https://www.amazon.com.br/?&tag=hydrbrabk-20&ref=pd_sl_7rwd1q78df_e&adgrpid=155790195778&hvpone=&hvptwo=&hvadid=677606588104&hvpos=&hvnetw=g&hvrand=12714813042386942102&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9196805&hvtargid=kwd-10573980&hydadcr=26346_11691057&gad_source=1" target="_blank">Amazon.com</a></td> <!-- Link para o site da Amazon -->
+            </tr>
+            <tr>
+                <td>Alphabet</td> <!-- Nome da empresa -->
+                <td><img src="https://logos-world.net/wp-content/uploads/2022/05/Alphabet-Symbol.png" alt="Logo 4"></td> <!-- Logo da Alphabet -->
+                <td>A Alphabet Inc. é uma sociedade holding e um conglomerado que possui diretamente várias empresas que foram pertencentes ou vinculadas ao Google, incluindo o próprio Google. A empresa está sediada na Califórnia e foi fundada pelos cofundadores do Google, Larry Page e Sergey Brin.</td> <!-- Descrição da Alphabet -->
+                <td><a href="https://www.alphabet.com/en-ww" target="_blank">Alphabet.com</a></td> <!-- Link para o site da Alphabet -->
+            </tr>
+            <tr>
+                <td>Tencent</td> <!-- Nome da empresa -->
+                <td><img src="https://1000logos.net/wp-content/uploads/2018/08/Tencent-Logo.png" alt="Logo 5"></td> <!-- Logo da Tencent -->
+                <td>A Tencent é uma holding de investimentos envolvida principalmente na prestação de serviços de valor agregado (VAS), serviços de publicidade on-line, bem como FinTech e serviços comerciais.</td> <!-- Descrição da Tencent -->
+                <td><a href="https://www.tencent.com" target="_blank">Tencent.com</a></td> <!-- Link para o site da Tencent -->
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
